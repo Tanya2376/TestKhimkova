@@ -10,7 +10,7 @@ namespace Console_calc
             double a;
             double b;
             string input2 = "";
-
+            Console.WriteLine("Добро пожаловать в супер-наикрутейший калькулятор 21 века!");
             Console.WriteLine("Calculator");
             while (true)
             {
