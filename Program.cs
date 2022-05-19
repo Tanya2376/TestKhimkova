@@ -11,7 +11,7 @@ namespace Console_calc
             double b;
             string input2 = "";
 
-            Console.WriteLine("Calculator");
+            
             while (true)
             {
                 
@@ -41,7 +41,6 @@ namespace Console_calc
                         continue;
                 }
 
-                Console.WriteLine("Calculator");
                 Console.WriteLine("Введите второе число (может быть целым, либо дробным с разделителем ','), затем Enter");
                 var input3 = Console.ReadLine();
 
