@@ -19,6 +19,11 @@ namespace Console_calc
                     result = a * b;
                     return result;
                 case "/":
+                    if (b==0)
+                    {
+                        Console.WriteLine("Делить на ноль нельзя!");
+                        return 0;
+                    }
                     result = a / b;
                     return result;
                 default:
