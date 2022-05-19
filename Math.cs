@@ -22,7 +22,7 @@ namespace Console_calc
                     result = a / b;
                     return result;
                 default:
-                    Console.WriteLine("неверный оператор");
+                    Console.WriteLine("Неверный оператор");
                     return 0;
             }
         }

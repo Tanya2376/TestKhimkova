@@ -20,7 +20,7 @@ namespace Console_calc
 
                 if (!Double.TryParse(input1, out a))
                 {
-                    Console.WriteLine("неверное число, попробуйте снова");
+                    Console.WriteLine("Неверное число, попробуйте снова");
                     continue;
                 }
 
@@ -37,7 +37,7 @@ namespace Console_calc
                     case "/":
                         break;
                     default:
-                        Console.WriteLine("неверный оператор");
+                        Console.WriteLine("Неверный оператор");
                         continue;
                 }
 
@@ -47,7 +47,7 @@ namespace Console_calc
 
                 if (!Double.TryParse(input3, out b))
                 {
-                    Console.WriteLine("неверное число, попробуйте снова");
+                    Console.WriteLine("Неверное число, попробуйте снова");
                     continue;
                 }
                 else
